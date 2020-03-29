@@ -98,9 +98,34 @@ h2 {
     
 }
 
-#title {
-    padding-top: 50px;
+#warmup {
+    padding-top:35px;
     text-align: center;
+    color: #0033cc;
+}
+
+#legs {
+    padding-top:35px;
+    text-align: center;
+    color: #0033cc;
+}
+
+#arms {
+    padding-top:35px;
+    text-align: center;
+    color: #0033cc;
+}
+
+#shoulders {
+    padding-top:35px;
+    text-align: center;
+    color: #0033cc;
+}
+
+#core {
+    padding-top:35px;
+    text-align: center;
+    color: #0033cc;
 }
 
 div {
@@ -110,15 +135,45 @@ div {
 nav {
     padding-top: 60px;
     width: 800px;
-}
-
-#workout_type {
-    padding-top:35px;
     text-align: center;
-    color: #0033cc;
 }
 
 iframe {
     margin-left: auto;
     margin-right: auto;
+}
+
+#workoutList {
+    text-align: center; 
+}
+
+
+
+
+#title {
+     padding-top: 25px;
+     text-align: center;
+}
+
+#workoutlist {
+    padding: 
+}
+
+.required {
+    font-weight: bold;
+    color: red;
+}
+form {
+    width: 200px;
+}
+
+section {
+    width: 250px;
+}
+
+#genders {
+    float: right;
+    margin: auto;
+    padding: inherit;
+    
 }
