@@ -21,7 +21,7 @@
 	<header>
 		<nav>
 			<ul id="Top List">
-                <li><a href="info.html">Information and help</a></li>
+                <li id="active"><a href="info.html">Information and help</a></li>
 				<li><a href="workout.html">Workouts</a></li>
                 <li><a href="meals.html">Meal Ideas</a></li>
             </ul>
@@ -32,24 +32,27 @@
         <h2>Leave us a message</h2><br>
             <form>
                 <label for="fname">First name:<span class="required">*</span></label><br>
-                <input type="text" id="fname" name="fname" placeholder="Joe"><br>
+                <input type="text" id="fname" name="fname" placeholder="John"><br>
                 <br>
                 <label for="lname">Last name:</label><br>
-                <input type="text" id="lname" name="lname" placeholder="Mamma"><br>
+                <input type="text" id="lname" name="lname" placeholder="Smith"><br>
                 <br>
                 <label for="email">Email:<span class="required">*</span></label><br>
-                <input type="text" name="email" id="email" required placeholder="johndoe@example.com"><br>
+                <input type="text" name="email" id="email" required placeholder="johnSmith@example.com"><br>
                 <br>
                 <label for="gender">Gender:</label><br>
                 <input type="radio" id="male" name="gender" value="male">
                 <label for="male">Male</label><br>
                 <input type="radio" id="female" name="gender" value="female">
-                <label for="female">Female</label><br>                                             <input type="radio" id="other" name="gender" value="other">
+                <label for="female">Female</label><br>                                             
+                <input type="radio" id="other" name="gender" value="other">
                 <label for="other">Other</label>
                 <br>
                 <br>
                 <input type="submit" value="Submit">
+                <form action=" http://year1.ccpdev.me/FormTest.php" method="get"></form>
                 </form>
+
     </section>
     
     
